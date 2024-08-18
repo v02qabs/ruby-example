@@ -1,9 +1,13 @@
 require 'net/ftp'
 
+
+server = gets.chomp
+user = gets.chomp
+pass = gets.chomp
 # FTPサーバーの情報
-ftp_server =    # サーバーのホスト名またはIPアドレス
-ftp_user =        # FTPユーザー名
-ftp_password =   # FTPパスワード
+ftp_server = server  # サーバーのホスト名またはIPアドレス
+ftp_user =   user     # FTPユーザー名
+ftp_password = pass  # FTPパスワード
 
 begin
   # FTPオブジェクトを作成

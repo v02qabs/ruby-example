@@ -1,9 +1,9 @@
 require 'net/ftp'
 
 # FTPサーバーの情報
-ftp_server = 'ftp.chobi.net'   # サーバーのホスト名またはIPアドレス
-ftp_user = 'hirofumi090'       # FTPユーザー名
-ftp_password = 'takesue090Abc'   # FTPパスワード
+ftp_server =    # サーバーのホスト名またはIPアドレス
+ftp_user =        # FTPユーザー名
+ftp_password =   # FTPパスワード
 
 begin
   # FTPオブジェクトを作成
