@@ -1,7 +1,0 @@
-# main.rb
-
-# greetings.rbをインポートする
-require_relative 'greetings'
-
-# Greeterクラスを使用
-puts Greeter.hello("Alice")

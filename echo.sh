@@ -1,0 +1,1 @@
+echo "echo hello" > hello2.sh

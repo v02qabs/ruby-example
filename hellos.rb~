@@ -1,2 +1,0 @@
-r = hellos.new("紘史")
-r.printf
